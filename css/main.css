@@ -13,11 +13,11 @@ body {
 
 .container {
 	width: 80%;
-    margin-top: 370px;
+    margin-top: 100px;
 	margin-left: 20px;
 	margin-right: auto;
 	height: 100%;
-    position: absolute;
+    position:absolute;
 }
 
 /* Hero Section */
@@ -25,7 +25,14 @@ body {
 	padding-bottom: 50px;
     background-color: ;
     opacity: 50%;
-    margin-left: 50px
+    margin-left: 50px;
+}
+.flow {
+    font-family: 'Source Serif Pro' , Serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 180px;
+    opacity: 50%;
 }
 .hero_header {
 	font-size: 150px;
@@ -47,7 +54,14 @@ body {
 	margin-left: 0px;
     line-height: 50px;
 }
+/* Portfolio Section */
+.filler {
+    margin-top: 800px;
+}
+
+
 /* Footer */
+/*////////make sticky footer/////////*/
 .copyright {
 	text-align: left;
 	padding-top: 20px;
