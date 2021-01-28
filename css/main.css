@@ -1,5 +1,6 @@
 @charset "UTF-8";
 body {
+    box-sizing: border-box;
 	font-family: 'Inter' , Sans-serif;
 	background-color: #F0F0F0;
 	margin-top: 0px;
@@ -12,13 +13,14 @@ body {
 }
 
 .container {
-	width: 80%;
+	width: 97%;
     margin-top: 100px;
 	margin-left: 20px;
 	margin-right: auto;
 	height: 100%;
     position:absolute;
 }
+
 
 /* Hero Section */
 .hero {
@@ -31,7 +33,7 @@ body {
     font-family: 'Source Serif Pro' , Serif;
     font-weight: 400;
     font-size: 12px;
-    margin-bottom: 180px;
+    margin-bottom: 150px;
     opacity: 50%;
 }
 .hero_header {
@@ -50,16 +52,38 @@ body {
 	text-align: left;
 	margin-top: 10px;
 	margin-right: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 40px;
 	margin-left: 0px;
     line-height: 50px;
 }
+
 /* Portfolio Section */
-.filler {
-    margin-top: 800px;
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+    margin-left: 60px
+}
+img {
+    width: 100%;
+    object-fit:scale-down;
 }
 
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #656565;
+}
 
+h3 {
+    font-size: 100px;
+    color: #656565;
+    display: flex;
+    justify-content: left;
+}
 /* Footer */
 /*////////make sticky footer/////////*/
 .copyright {
