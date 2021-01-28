@@ -79,16 +79,20 @@ p {
 /* Mobile */
 @media (min-width: 300px)and (max-width: 412px) {
 
+    .main {
+        margin:0;
+        padding-left: 10px
+    }
     .container {
         display:flex;
         flex-direction:column;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        width: 73%;
+        width: 98%;
         position:relative;
     }
-   
+
     
     h1 {
         font-size: 50px;
