@@ -73,7 +73,10 @@ p {
 
     .container {
         width:87%;
-    }  
+    } 
+    img {
+        object-fit: cover;
+    }
     
 }
 /* Mobile */
@@ -92,7 +95,9 @@ p {
         width: 98%;
         position:relative;
     }
-
+    img {
+        object-fit: cover;
+    }
     
     h1 {
         font-size: 50px;
