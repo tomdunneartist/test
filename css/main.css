@@ -7,8 +7,6 @@
 body {
     font-family: 'Inter', sans-serif;
     color: #656565;
-    /*background-image: url(..//images/bg.jpg);
-    opacity: 100%;*/
 }
 .container {
   display: flex;
@@ -26,6 +24,12 @@ body {
   background: #ece4db;
 }
 .container:nth-child(3) {
+  background: #f0efeb;
+}
+.container:nth-child(4) {
+  background: #ece4db;
+}
+.container:nth-child(5) {
   background: #f0efeb;
 }
 img {
