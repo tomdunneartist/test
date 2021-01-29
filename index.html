@@ -1,64 +1,52 @@
 <!doctype html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tomdunne.design</title>
     <link href="css/main.css" rel="stylesheet" type="text/css">
+    <!--<link href="css/darkmode.css" rel="stylesheet" type="text/css">-->
     <link rel="shortcut icon" type="image/gif" href="images/tomdunnedesign-favicon.gif">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3858b434f0.js" crossorigin="anonymous"></script>
-    <title>Tom Dunne | Artist</title>
+
 </head>
 
 <body>
-    <div class="main">
-        <h1>tom dunne</h1>
-        <h2>hand painted halftone portraits</h2>
-    </div>
-    <div class="main" id="luxy">
-        <div class='container'>
-            <div class='reveal'>
-                <a href="https://www.instagram.com/thesmallposter/" target="_blank"><img src="images/icon-9.jpg"></a>
-            </div>
-            <p>minnow<br>acrylic on newsprint<br>90cm x 60cm<br><strong><del>£180 </del>sold</strong></p>
-        </div>
-        <div class='container'>
-            <div class='reveal'>
-                <a href="https://www.instagram.com/p/CJypHMKlrQL/" target="_blank"><img src="images/icon-7.jpg"></a>
-            </div>
-            <p>david bowie<br>acrylic on newsprint<br>104cm x 80cm<br><strong><del>£200 </del>sold</strong></p>
-        </div>
-        <div class='container'>
-            <div class='reveal'>
-                <a href="https://www.behance.net/gallery/31887193/Kate-Moss-Painting-2013" target="_blank"><img src="images/icon-1.jpg"></a>
-            </div>
-            <p>kate moss<br>acrylic on newsprint<br>201cm x 153cm<br><strong><del>£350 </del>sold</strong></p>
-        </div>
-        <div class='container'>
-            <div class='reveal'>
-                <a href="https://www.behance.net/gallery/32019475/Muhammad-Ali-Painting-2013" target="_blank"><img src=images/icon-4.jpg></a>
-            </div>
-            <p>muhammad ali<br>acrylic on newsprint<br>201cm x 153cm<br><strong><del>£350 </del>sold</strong></p>
-        </div>
-        <div class='container'>
-            <div class='reveal'>
-                <a href="https://www.behance.net/gallery/31920449/Clement-Greenberg-Painting-2012" target="_blank"><img src=images/icon-5.jpg></a>
-            </div>
-            <p>clement greenberg<br>acrylic on newsprint<br>201cm x 153cm<br><strong><del>£350 </del>sold</strong></p>
-        </div>
-        <div class='container'>
-            <h3>commissions welcome<br><a href="mailto:tomdunneartist@gmail">tomdunneartist@gmail.com</a></h3>
-            <p>tom dunne&copy;2021 all rights reserved</p>
-        </div>
-    </div>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Navigation -->
+        <header> <a href="mailto:hello@tomdunne.design">
+                <h4 class="logo">hello@tomdunne.design</h4>
+            </a>
+            <nav>
+                <ul>
+                    <li><button id="dark-mode-toggle" class="dark-mode-toggle">
+                        </button></li>
+                    <li><a class="dribbble-icon" href="https://dribbble.com/tomdunneartist" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+                    <li> <a class="behance-icon" href="https://www.behance.net/tomdunneartist" target="_blank"><i class="fab fa-behance"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <h2 class="hero_header">ui/ux<br>print/digital<br>animation/code &amp; everything in between - <span class="light">currently freelancing ca/uk</span></h2>
+        </section>
+        <!--<section class="img">
+            <img src="images/macos01.gif">
+        </section>-->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js" integrity="sha512-elauk8NI35rjTlatfRQxeqmJoieQlfm0W8AeQVps+j+KkMDdaqNxVazFzwyU7uSOyeeVn/VLbGYLwOR/D5I6Kw==" crossorigin="anonymous"></script>
-    <script src="luxy.min.js"></script>
-    <script src="script.js"></script>
-</body>
+        <!--<picture><source srcset="images/macos01.gif" media="(prefers-color-scheme: #darkmode)">
+            <img src="images/macos02.gif">
+        </picture>-->
 
-</html>
+
+        <!-- Copyrights Section -->
+        <div class="copyright">tomdunne.design&copy;2021</div>
+    </div>
+    <!-- Main Container Ends -->
+
+    <script src="darkmode.js"></script>
+
+</body></html>
