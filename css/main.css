@@ -65,6 +65,14 @@ h2 {
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
+
+h3 {
+    font-size: 60px;
+    text-align: center;
+}
+h3 a {
+    font-weight: 200;
+}
 p {
     font-weight: 200;
     font-size:14px;
@@ -109,5 +117,8 @@ p {
     h2 {
         font-size: 14px;
         font-weight: 200;
+    }
+    h3 {
+        font-size: 24px;
     }
 }
