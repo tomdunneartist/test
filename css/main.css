@@ -180,6 +180,19 @@ img {
     letter-spacing: 1px;
 }
 
+
+.gif-face{
+    width: 200px;
+    height: 261px;
+    background: url(../images/macos01.gif);
+}
+
+.darkmode .gif-face{
+    width: 200px;
+    height: 261px;
+    background: url(../images/macos02.gif);
+}
+
 /* Mobile */
 @media (min-width: 300px)and (max-width: 412px) {
     header {
