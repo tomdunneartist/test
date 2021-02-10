@@ -75,7 +75,7 @@
 
   ::-webkit-scrollbar-thumb {
     cursor: pointer;
-    background: #000000;
+    background: #f08080;
   }
 
   .section-title {
@@ -137,7 +137,7 @@
     background: #f08080;
     border-radius: 0;
     border: 0;
-    color: #f9f9f9;
+    color: #f9f2f2;
     font-size: inherit;
     font-weight: normal;
     padding: 10px 25px;
@@ -235,7 +235,7 @@
   }
 
   .custom-navbar .navbar-nav.navbar-right .section-btn:hover {
-    background: #292929;
+    background: #f9f2f2;
     color: #f08080;
   }
 
@@ -262,7 +262,7 @@
 
   .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #f08080;
+    opacity: 50%;
   }
 
   .custom-navbar .navbar-nav > li > a:hover,
@@ -288,7 +288,7 @@
   }
 
   .custom-navbar .navbar-toggle .icon-bar {
-    background: #252525;
+    background: #f9f2f2;
     border-color: transparent;
   }
 
@@ -317,7 +317,7 @@
     }
 
     .top-nav-collapse .nav .section-btn a {
-      color: #ffffff;
+      color: #f9f2f2;
     }
   }
 
@@ -332,12 +332,12 @@
   }
 
   #home h1 {
-    color: #ffffff;
+    color: #f9f2f2;
     padding-bottom: 30px;
   }
 
   #home h3 {
-    color: #f9f9f9;
+    color: #f9f2f2;
     font-size: 14px;
     line-height: inherit;
     letter-spacing: 2px;
@@ -366,7 +366,7 @@
     width: 12px;
     height: 12px;
     margin: 7px 10px;
-    border: 2px solid #d9d9d9;
+    border: 2px solid #f9f2f2;
     background: transparent;
     display: block;
     -webkit-backface-visibility: visible;
@@ -375,7 +375,7 @@
   }
 
   .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background-color: #ffffff;
+    background-color: #f9f2f2;
     border-color: transparent;
   }
 
@@ -386,7 +386,7 @@
     text-align: left;
     background-color: rgba(20,20,20,0.2);
     height: 100%;
-    color: #fff;
+    color: #f9f2f2;
     cursor: e-resize;
     padding: 4em 0 0 2em;
   }
@@ -411,26 +411,35 @@
     background-image: url(../images/slider-image-web03.jpg);
   }
 
+    .slider .item-first .section-btn {
+    background: transparent;
+    border: 1px solid #f9f2f2;
+  }
+
+  .slider .item-first .section-btn:hover {
+    background: #f08080;
+      color: #f9f2f2;
+  }
+
   .slider .item-second .section-btn {
     background: transparent;
-    border: 1px solid #ffffff;
+    border: 1px solid #f9f2f2;
   }
 
   .slider .item-second .section-btn:hover {
-    background: transparent;
-    border: 1px solid #ffffff;
+    background: #f08080;
+      color: #f9f2f2;
   }
 
   .slider .item-third .section-btn {
     background: transparent;
-    border: 1px solid #ffffff;
+    border: 1px solid #f9f2f2;
   }
 
   .slider .item-third .section-btn:hover,
   .slider .item-third .section-btn:focus {
-    background: transparent;
-    border: 1px solid #ffffff;;
-    color: #ffffff;
+    background: #f08080;
+      color: #f9f2f2;
   }
 
 
@@ -455,90 +464,6 @@
     position: absolute;
     max-width: 50%;
   }
-
-
-
-  /*---------------------------------------
-      TEAM              
-  -----------------------------------------*/
-
-  #team {
-    background: #f9f9f9;
-  }
-
-  .team-thumb {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-  }
-
-  .team-info {
-    padding: 10px 30px 20px 30px;
-  }
-
-  .team-thumb .team-hover {
-    position: absolute;
-    background: #1c1c1c;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    opacity: 0;
-    transform: translateY(100%);
-    transition: 0.5s 0.2s;
-  }
-
-  .team-thumb:hover .team-hover {
-    opacity: 0.95;
-    transition-delay: 0.3s;
-    transform: translateY(0);
-  }
-
-  .team-thumb img {
-    transition: 0.5s 0.2s;
-  }
-
-  .team-thumb:hover img {
-    transform: scale(1.2);
-  }
-
-  .team-thumb .social-icon li a {
-    background: #292929;
-    border-radius: 100%;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    color: #d9d9d9;
-    font-size: 20px;
-    margin: 15px 5px 0 5px;
-  }
-
-  .team-thumb .team-item {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-  }
-
-  .team-item h4 {
-    color: #ffffff;
-  }
-
-  .team-info p {
-    color: #bfbdbd;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-top: 5px;
-  }
-
-
 
   /*---------------------------------------
      MENU              
@@ -663,7 +588,7 @@
   }
 
   #testimonial h2 {
-    color: #ffffff;
+    color: #f9f2f2;
   }
 
   #testimonial p,
@@ -673,7 +598,7 @@
   }
 
   #testimonial p {
-    color: #d9d9d9;
+    color: #f9f2f2;
     font-size: 20px;
     line-height: 35px;
   }
@@ -684,7 +609,7 @@
 
   .tst-author h4,
   .tst-author span {
-    color: #b2b2b2;
+    color: #f9f2f2;
   }
 
   .tst-author span {
@@ -728,17 +653,18 @@
   }
 
   #contact button#cf-submit {
-    background: #ce3232;
+    background: #f08080;
     border-radius: 0;
     border: 0;
-    color: #ffffff;
+    color: #f9f2f2;
     font-weight: bold;
     height: 50px;
   }
 
   #contact button#cf-submit:hover {
-    background: #292929;
-    color: #ffffff;
+    background: #f9f2f2;
+    color: #f08080;
+    border: 1px solid #f08080;
   }
 
 
@@ -838,7 +764,7 @@
 
   .social-icon li a {
     border-radius: 100px;
-    color: #ce3232;
+    color: #f08080;
     font-size: 15px;
     width: 35px;
     height: 35px;
@@ -850,8 +776,8 @@
   }
 
   .social-icon li a:hover {
-    background: #ce3232;
-    color: #ffffff;
+    background: #f08080;
+    color: #f9f2f2;
   }
 
 
@@ -931,7 +857,7 @@
     }
 
     .custom-navbar {
-      background: #ffffff;
+      background: #f08080;
       -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
@@ -946,13 +872,13 @@
 
     .custom-navbar .navbar-brand,
     .top-nav-collapse .navbar-brand {
-      color: #252525;
+      color: #f9f2f2;
       font-weight: 600;
     }
 
     .custom-navbar .nav li a,
     .top-nav-collapse .nav li a {
-      color: #575757;
+      color: #f9f2f2;
     }
 
     .custom-navbar .navbar-nav.navbar-right li {
@@ -967,7 +893,7 @@
     }
 
     .custom-navbar .section-btn a {
-      color: #ffffff !important;
+      color: #f9f2f2 !important;
     }
 
     .slider .caption {
