@@ -257,7 +257,7 @@
     font-weight: bold;
     color: #f9f2f2;
     padding-right: 22px;
-    padding-left: 22px;
+    padding-left: 2px;
     text-transform: uppercase;
   }
 
@@ -279,7 +279,7 @@
   }
 
   .custom-navbar .navbar-toggle {
-    border: none;
+    border: 10px red;
     padding-top: 10px;
       
   }
@@ -325,6 +325,7 @@
 .logo {
     width:170px;
 }
+
 
 
   /*---------------------------------------
@@ -515,7 +516,7 @@
   }
 
   .menu-info .menu-item {
-    float: left;
+    float: center;
   }
 
   .menu-info .menu-price {
@@ -540,6 +541,7 @@
     color: #f9f2f2;
     z-index: 2;
     position: relative;
+      text-align: center;
   }
 
   .menu-thumb .menu-info h3 {
