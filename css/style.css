@@ -1,8 +1,8 @@
- @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Open+Sans:wght@400;700&display=swap');
 
   body {
     background: #f9f2f2;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
     overflow-x: hidden;
   }
 
@@ -119,6 +119,7 @@
   .about-image img,
   .team-thumb img {
     width: 100%;
+      border-radius: 200px;
   }
   
   #google-map iframe {
@@ -136,7 +137,7 @@
   .section-btn {
     background: #f08080;
     border-radius: 0;
-    border: 0;
+    border: 1px solid #f9f2f2;
     color: #f9f2f2;
     font-size: inherit;
     font-weight: normal;
@@ -321,6 +322,9 @@
     }
   }
 
+.logo {
+    width:170px;
+}
 
 
   /*---------------------------------------
@@ -404,7 +408,7 @@
   }
 
   .slider .item-second {
-    background-image: url(../images/slider-image-web01.jpg);
+    background-image: url(../images/slider-image-web04.jpg);
   }
 
   .slider .item-third {
@@ -454,6 +458,7 @@
 
   .about-info {
     padding: 0 6em 5em 0;
+      margin-left: 170px;
   }
 
   .about-info .section-title {
@@ -532,7 +537,7 @@
     opacity: 0;
     display: block;
     transition: 0.5s 0.2s;
-    color: #ffffff;
+    color: #f9f2f2;
     z-index: 2;
     position: relative;
   }
@@ -557,7 +562,7 @@
   }
 
   .menu-thumb:hover .menu-info {
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.3);
   }
 
 
@@ -707,7 +712,7 @@
 
   .footer-open-hour {
     background: #ce3232;
-    background: url('../images/footer-open-hour-bg.jpg') center center no-repeat;
+    background: url('../images/footer-open-hour-bg01.jpg') center center no-repeat;
     background-size: cover;
     border-radius: 20px;
     margin-top: 0;
@@ -796,10 +801,15 @@
   @media only screen and (max-width: 1200px) {
     .about-info {
       padding-right: 0;
+        margin-left: 0;
     }
 
     .about-image {
       position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
     }
   }
 
@@ -858,6 +868,7 @@
 
     .custom-navbar {
       background: #f08080;
+        opacity: 90%;
       -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
