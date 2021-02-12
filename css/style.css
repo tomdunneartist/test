@@ -24,7 +24,7 @@
   }
 
   h2 {
-    color: #353535;
+    color: #757575;
     font-size: 2em;
     padding-bottom: 10px;
   }
@@ -36,7 +36,7 @@
 
   h3,
   h3 a {
-    color: #454545;
+    color: #757575;
   }
 
   p {
@@ -241,6 +241,7 @@
   }
 
   .custom-navbar .navbar-nav.navbar-right .section-btn:focus {
+     background: #f9f2f2;
     color: #f08080;
   }
 
