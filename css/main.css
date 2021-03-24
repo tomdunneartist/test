@@ -352,6 +352,12 @@ a:hover {
     position: absolute;
 }
 
+nature-icon {
+    display: hidden;
+    margin-left 300px;
+
+}
+
 @media only screen and (max-width: 1200px) {
     h1 {
         font-family: "Helvetica Neue ", Helvetica, sans-serif;
@@ -492,6 +498,9 @@ a:hover {
             padding-right: 20px;
         }
 
+        img #nature-icon {
+            padding-left: 200px;
+        }
         .spacefirst {
             width: 100%;
             height: 50px;
