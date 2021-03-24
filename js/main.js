@@ -5,5 +5,5 @@ $('.here').click(function () {
 
 $('.here2').click(function () {
     console.log('you click');
-    window.location.assign('about.html')
+    window.location.assign('index.html')
 })

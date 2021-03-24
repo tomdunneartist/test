@@ -29,10 +29,10 @@ textarea {
     resize: vertical;
 }
 
-//*::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
 }
-*//
+
 
 html {
     margin: 0px;

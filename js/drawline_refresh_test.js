@@ -16,11 +16,11 @@ var r=1;
   }
   
  wait+=1;
-    strokeWeight (1); 
+    strokeWeight (0.5); 
     stroke (0, 0, 255);
 
  r+=0.01;
-    line (map(noise(r), 0, 0.2, 0, width), 
+    line (map(noise(r), 0.1, 0.2, 0, width), 
     map(noise(r+100), 0, 10, 0, height), 
     map(noise(r+0.02), 2, 0, 0, width), 
     map(noise(r+1000.02), 0, 1, 0, height));
