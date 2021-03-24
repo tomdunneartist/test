@@ -20,8 +20,8 @@ var r=1;
     stroke (0, 0, 255);
 
  r+=0.01;
-    line (map(noise(r), 0, 1, 0, width), 
-    map(noise(r+100), 0, 1, 0, height), 
+    line (map(noise(r), 0, 0, 0, width), 
+    map(noise(r+100), 0, 0, 0, height), 
     map(noise(r+0.02), 0, 1, 0, width), 
-    map(noise(r+1000.02), 0, 10, 0, height));
+    map(noise(r+1000.02), 0, 1, 0, height));
 }
