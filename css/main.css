@@ -75,7 +75,6 @@ body {
     width: auto;
     position: fixed;
     z-index: 99999;
-    background: rgb(255, 255, 255);
 }
 
 .work {
@@ -132,7 +131,24 @@ text {
     font-weight: 400;
     
 }
-.hidden {
+
+.p2 {
+    float: right;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    margin: 10px;
+    padding: 0px;
+    background-color: transparent;
+    text-align: left;
+    z-index: 999;
+    font-weight: 400;
+    
+}
+
+.hidden-text {
     color: rgb(255, 255, 255);
     float: right;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -274,7 +290,6 @@ text {
     position: fixed;
     z-index: 9999;
     color: black;
-    background: rgb(255, 255, 255);
 }
 
 .name2 {
@@ -289,12 +304,11 @@ text {
 
 .name3 {
     left: 20px;
-    top: 60px;
+    top: 30px;
     width: auto;
     position: fixed;
     z-index: 9999;
     color: black;
-    background: rgb(255, 255, 255);
 }
 
 
@@ -376,11 +390,7 @@ a:hover {
     position: absolute;
 }
 
-nature-icon {
-    display: hidden;
-    margin-left 300px;
 
-}
 
 @media only screen and (max-width: 1200px) {
     h1 {
@@ -503,12 +513,15 @@ nature-icon {
     margin: auto;}
 */
 
+.p2 {
+    margin-right:20px;
+}
 
        
         
         .name3 {
             left: 20px;
-            top: 60px;
+            top: 30px;
             width: auto;
             position: fixed;
             z-index: 9999;
@@ -559,7 +572,9 @@ nature-icon {
     padding: 5%;
     margin: auto;}
 */
-
+.p2 {
+    margin-right: 20px;
+}
 
 
 
@@ -759,3 +774,4 @@ nature-icon {
             page-break-after: avoid;
         }
     }
+}
