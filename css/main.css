@@ -33,6 +33,9 @@ textarea {
     display: none;
 }
 
+.bground-wrap {
+    color: green;
+}
 
 html {
     margin: 0px;
@@ -72,6 +75,7 @@ body {
     width: auto;
     position: fixed;
     z-index: 99999;
+    background: rgb(255, 255, 255);
 }
 
 .work {
@@ -94,6 +98,7 @@ text {
     font-size: 28px;
     margin: 0px;
     padding: 0px;
+    
 }
 
 .spacefirst {
@@ -125,6 +130,7 @@ text {
     text-align: left;
     z-index: 999;
     font-weight: 400;
+    
 }
 .hidden {
     color: rgb(255, 255, 255);
@@ -268,6 +274,7 @@ text {
     position: fixed;
     z-index: 9999;
     color: black;
+    background: rgb(255, 255, 255);
 }
 
 .name2 {
@@ -277,15 +284,17 @@ text {
     position: fixed;
     z-index: 9999;
     color: black;
+    
 }
 
 .name3 {
     left: 20px;
-    top: 32px;
+    top: 60px;
     width: auto;
     position: fixed;
     z-index: 9999;
     color: black;
+    background: rgb(255, 255, 255);
 }
 
 
@@ -499,7 +508,7 @@ nature-icon {
         
         .name3 {
             left: 20px;
-            top: 32px;
+            top: 60px;
             width: auto;
             position: fixed;
             z-index: 9999;
