@@ -2,64 +2,79 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
   font-family: 'Inter', 'Helvetica', sans-serif;
-  font-weight: 100;
-}
-
-section {
-  height: 100vh;
+  color: #ffffff;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(245, 245, 245);
-  scroll-snap-align: start;;
+  align-items:center;
+  justify-content:center;
+  text-align: left;
+  
+
+ 
 }
 
-.container {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
-}
-
-.one {
-  background: rgb(36, 164, 138);
-}
-.two {
-  background: rgb(245, 245, 245);
-}
-.three {
-  background: rgb(243, 241, 119);
-}
-.four {
-  background: rgb(253, 140, 112);
-}
-
-.title {
-  margin-right:5em;
+.wrapper {
+  position: absolute;
+  z-index: 1;
+  margin-bottom: 14em;
+  padding: 10em;
 }
 
 h1 {
-  display: flex;
-  font-size: 1.5em;
-  margin-left: 1em;
-  margin-bottom: 10em;
+  margin-bottom: 4em;
 }
 
 h2 {
-  display: flex;
-  font-size: 4.8em;
-  line-height: 1em;
-  margin-bottom: 1em;
-  margin-left: 5em;
+font-size: 4em;
+line-height: 0.9em;
+margin-bottom: 0.3em;
 }
 
 h3 {
-  display: flex;
-  font-size: 1.5em;
-  margin-left: 16.2em;
+  font-weight:100;
 }
 
-.portfolio {
-  color: rgb(36, 164, 138);
-  margin-right: 39em;
+/*
+body {
+z-index: -1;
+display: flex;
+position: relative;
 }
+
+h1 {
+    font-family: 'Inter', 'Helvetica', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Inter', 'Helvetica', sans-serif;
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: 100;
+}
+
+.container {
+  position: relative;
+}
+
+.container h1 .name,
+.container h1 .country,
+.container h1 .montreal {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container img {
+  position: absolute;
+  width: 400px;
+  transform: translate(-50%, -50%);
+  display: none;
+  pointer-events: none;
+  z-index: -1;
+  filter: grayscale(1);
+}
+*/
