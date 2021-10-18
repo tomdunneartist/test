@@ -61,6 +61,16 @@ figure img {
     line-height: 0;
 }
 
+.container02 img {
+  position: absolute;
+  width: 300px;
+  transform: translate(-50%, -50%);
+  display: none;
+  pointer-events: none;
+  z-index: -1;
+  filter: grayscale(1);
+}
+
 .lazy {
     opacity: 0;
     -webkit-transform: translate3d(0, 3vw, 0);
@@ -539,7 +549,7 @@ footer {
     position: fixed;
     bottom: 0;
     color: #fff;
-    background: #000;
+    background: #eb1010;
     z-index: 0;
     width: 100%;
 }

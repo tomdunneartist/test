@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     color: inherit;
-    text-decoration: none;
+    text-decoration: underline;
     transition: opacity .2s ease;
 }
     a:hover {
@@ -280,7 +280,7 @@ a.external-dark::after {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #000;
+    background-color: #eb1010;
     transition: all .5s cubic-bezier(.59, .01, .28, 1);
 }
     .nav-mobile nav {
@@ -539,7 +539,7 @@ footer {
     position: fixed;
     bottom: 0;
     color: #fff;
-    background: #000;
+    background: #eb1010;
     z-index: 0;
     width: 100%;
 }
