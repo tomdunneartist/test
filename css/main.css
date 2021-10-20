@@ -40,6 +40,7 @@ main {
 
 figure {
   margin: 0 auto;
+  
 }
 
 figure img {
@@ -47,14 +48,9 @@ figure img {
   line-height: 0;
 }
 
-.cat {
-  width:20%;
-  margin-left: 10vw;
-}
-
 .cat02 {
   width:50%;
-  margin-top: 1.5vw;
+  margin-top: 1vw;
   margin-left: 5vw;
 }
 
@@ -78,6 +74,10 @@ figure img {
   margin-top: 3vw;
 }
 
+.work-title {
+  font-weight:100;
+}
+
 .container02 {
   position: relative;
   display: flex;
@@ -97,7 +97,7 @@ figure img {
 
 .container02 img {
   position: absolute;
-  width: 300px;
+  width: 15rem;
   transform: translate(-50%, -50%);
   display: none;
   pointer-events: none;
@@ -215,7 +215,7 @@ figure img {
 }
 
 .shift {
-  margin-top: 25vh;
+  margin-top: 5vh;
 }
 
 .justify-content-center {
@@ -239,7 +239,7 @@ justify-content: center !important;
 }
 
 .mt-0 {
-  margin-top: 0 !important;
+  margin-top: 0rem !important;
 }
 
 .mt-1 {
@@ -381,12 +381,14 @@ a.external-dark::after {
 }
 .work-thumb article {
   position: relative;
+  
 }
   .work-thumb figure {
       overflow: hidden;
       box-sizing: border-box;
       line-height: 0;
       transition: transform .3s cubic-bezier(.25,.46,.45,.94);
+      
   }
       .work-thumb figure img {
           transition: transform 1.5s ease, opacity .3s ease;
@@ -430,12 +432,36 @@ a.external-dark::after {
   transition: height 1s ease, opacity 1s ease;
   will-change: height;
 }
+
+
   #work-header img {
       object-fit: cover;
       width: 100%;
       height: 100% !important;
       object-position: 50% 50%;
   }
+
+  #work-header video {
+    object-fit: cover;
+    width: 100%;
+    height: 100% !important;
+    object-position: 10% 50%;
+}
+
+.credits {
+  font-size: 16px;
+  line-height: 1.4em;
+}
+  .credits ul {
+      list-style: none;
+  }
+      .credits ul li span {
+          font-family: 'Neue Haas Unica Regular';
+      }
+.credits-mobile {
+  display: none;
+}
+
 
 .work {
   margin-top: 1rem;
