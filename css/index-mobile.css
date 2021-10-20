@@ -61,6 +61,17 @@ figure img {
     line-height: 0;
 }
 
+.cat02 {
+    width:20%;
+    margin-bottom: 10vw;
+  }
+
+  .montreal {
+    font-family: 'Playfair Display', serif;
+    font-size: 4vw;
+    margin-top: 1vw;
+  }
+
 .lazy {
     opacity: 0;
     -webkit-transform: translate3d(0, 3vw, 0);
@@ -529,10 +540,10 @@ a.external-dark::after {
         color: #000 !important;
     }
 
-.hide-on-mobile {
+/*.hide-on-mobile {
     display: none;
 }
-
+*/
 footer {
     padding-top: 2rem;
     padding-bottom: 1rem;
