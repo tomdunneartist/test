@@ -46,6 +46,15 @@ figure img {
     line-height: 0;
 }
 
+.work-title {
+    font-size: 0.8em;
+    font-family: 'Inter';
+}
+
+.work-category{
+    display: none;
+  }
+
 .cat02 {
     width:20%;
     margin-bottom: 10vw;
@@ -111,6 +120,7 @@ figure img {
     flex: 0 0 auto;
     width: 100%;
 }
+
 
 .offset-2 {
     margin-left: 16.6666666667%;
@@ -204,8 +214,8 @@ figure img {
 }
 
 .h1 {
-    font-size: 2em;
-    line-height: 1em;
+    font-size: 1em;
+    line-height: 1.2em;
     letter-spacing: -.035em;
 }
 

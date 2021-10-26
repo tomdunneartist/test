@@ -1,4 +1,18 @@
 
+@font-face {
+    font-family: 'Neue Haas Unica Light';
+    src: url('/assets/webfonts/36EC6F_0_0.eot');
+    src: url('/assets/webfonts/36EC6F_0_0.eot?#iefix') format('embedded-opentype'), url('/assets/webfonts/36EC6F_0_0.woff2') format('woff2'), url('/assets/webfonts/36EC6F_0_0.woff') format('woff'), url('/assets/webfonts/36EC6F_0_0.ttf') format('truetype');
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Regular';
+    src: url('/assets/webfonts/36EC6F_1_0.eot');
+    src: url('/assets/webfonts/36EC6F_1_0.eot?#iefix') format('embedded-opentype'), url('/assets/webfonts/36EC6F_1_0.woff2') format('woff2'), url('https://2021.hrust.pl/assets/webfonts/36EC6F_1_0.woff') format('woff'), url('https://2021.hrust.pl/assets/webfonts/36EC6F_1_0.ttf') format('truetype');
+    font-display: fallback;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +21,7 @@
 }
 
 html, body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Neue Haas Unica Light', sans-serif;
     font-size: 18px;
     line-height: 1.3em;
     color: #000;
